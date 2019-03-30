@@ -9,3 +9,11 @@ Username=root//
 Password=[blank]//
 
 Host=localhost//
+
+-----------------------------------
+
+Login
+
+Username=admin
+
+Password=password
