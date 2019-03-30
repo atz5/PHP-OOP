@@ -13,7 +13,7 @@
 	if (isset($_SESSION['valid'])) {
 		include_once 'crud.php';
 		$crud=new crud();
-		// $result=$crud->login();
+		$result=$crud->login();
 	 ?>
 	 Welcome<?php echo $_SESSION['name']; ?>
 	 <a href="logout.php">Logout</a><br>
